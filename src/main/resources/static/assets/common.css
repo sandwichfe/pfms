@@ -514,3 +514,11 @@ html.dropdown-no-scroll {
     width: 5px;
     height: 5px;
 }
+
+.file-header {
+    position: sticky;
+    top: 0;/* 距离页面顶部距离 */
+    z-index:99;
+    background: #FFF;
+
+}
