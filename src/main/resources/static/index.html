@@ -21,25 +21,31 @@
 
 <div class="layui-container" style="padding-top: 15px;">
     <div class="layui-card">
-        <div class="layui-card-header">当前位置：<span id="tvFP">/</span></div>
-        <div class="layui-card-body">
-            <div class="btnDiv">
-                <button id="btnBack" class="layui-btn layui-btn-sm layui-btn-primary icon-btn"><i class="layui-icon">&#xe65c;</i>返回上级
-                </button>
-                <button id="btnRefresh" class="layui-btn layui-btn-sm layui-btn-primary icon-btn"><i class="layui-icon">&#xe669;</i>刷新
-                </button>
-                <button id="btnUpload" class="layui-btn layui-btn-sm layui-btn-normal icon-btn"><i class="layui-icon">&#xe681;</i>上传文件
-                </button>
-                <button id="btnNewDir" class="layui-btn layui-btn-sm layui-btn-normal icon-btn"><i class="layui-icon layui-icon-add-circle"></i>新建文件夹
-                </button>
-                <button id="btnDelDir" class="layui-btn layui-btn-sm layui-btn-primary icon-btn"><i class="layui-icon layui-icon-delete"></i>刪除目录
-                </button>
-                <button id="btnRname" class="layui-btn layui-btn-sm layui-btn-primary icon-btn"><i class="layui-icon layui-icon-edit"></i>重命名目录
-                </button>
-            </div>
 
+        <div class = "file-header ">
+            <div class="layui-card-header">当前位置：<span id="tvFP">/</span></div>
+            <div class="layui-card-body">
+                <div class="btnDiv">
+                    <button id="btnBack" class="layui-btn layui-btn-sm layui-btn-primary icon-btn"><i class="layui-icon">&#xe65c;</i>返回上级
+                    </button>
+                    <button id="btnRefresh" class="layui-btn layui-btn-sm layui-btn-primary icon-btn"><i class="layui-icon">&#xe669;</i>刷新
+                    </button>
+                    <button id="btnUpload" class="layui-btn layui-btn-sm layui-btn-normal icon-btn"><i class="layui-icon">&#xe681;</i>上传文件
+                    </button>
+                    <button id="btnNewDir" class="layui-btn layui-btn-sm layui-btn-normal icon-btn"><i class="layui-icon layui-icon-add-circle"></i>新建文件夹
+                    </button>
+                    <button id="btnDelDir" class="layui-btn layui-btn-sm layui-btn-primary icon-btn"><i class="layui-icon layui-icon-delete"></i>刪除目录
+                    </button>
+                    <button id="btnRname" class="layui-btn layui-btn-sm layui-btn-primary icon-btn"><i class="layui-icon layui-icon-edit"></i>重命名目录
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-card-body">
             <div class="file-list"></div>
         </div>
+
     </div>
 </div>
 
